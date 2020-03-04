@@ -36,5 +36,5 @@ thead tr:nth-child(1){
 
 div:not(.exception){
     font-size: 20px;
-    border:1px solid darkblue;
+    border:1px solid pink;
 }
