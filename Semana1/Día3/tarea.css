@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "mi fuente";
+    src: url('Maloney.ttf');
+}
+.parrafo1{
+    width: 50%;
+    color:#000000;
+    background-color: #cc05d4;
+    border: 1px solid #00ff00;
+}
+.parrafo2{
+    text-align: center;
+    word-spacing: 20px;
+    border: 1px dashed #ff0000;
+}
+.parrafo3{
+    font-family:"mi fuente";
+    text-align: right;
+    height: 50px;
+    border: 1px solid #0000ff;
+    overflow-y: scroll;
+
+}
