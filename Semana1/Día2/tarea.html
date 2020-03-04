@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>TAREA</th>
+            </tr>
+        </thead>
+            <!-- tr*13>td{$}+td*2 -->
+            
+            <tr>
+                <td>1</td>
+                <td>Nombre</td>
+                <td><input type="text" placeholder="Ingrese su nombre"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Apellidos</td>
+                <td><input type="text" placeholder="Ingrese sus apellidos"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DNI</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Correo</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Teléfono</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Contraseña</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ciudad de Origen</td>
+                <td>
+                    <select>
+                        <option value="1">Arequipa</option>
+                        <option value="2">Lima</option>
+                        <option value="3">Cusco</option>
+                        <option value="4">Iquitos</option>
+                        <option value="5">Piura</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Estado Civil</td>
+                <td>
+                    <input type="radio" name="estadoCivil" id="soltero">
+                    <label for="soltero">Soltero</label>
+                    <input type="radio" name="estadoCivil" id="casado">
+                    <label for="casado">Casado</label>
+                    <input type="radio" name="estadoCivil" id="viudo">
+                    <label for="viudo">Viudo</label>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Descripción</td>
+                <td><textarea name="" rows="" cols=""></textarea></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Fecha de nacimiento</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Color Favorito</td>
+                <td>
+                  <input type="color">
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Curriculum Vitae</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>13</td>
+               
+                <td colspan="2">
+                    <form action="">
+                        <input type="submit" value="ENVIAR">                    
+                        <input type="reset" value="CANCELAR O LIMPIAR">
+                    </form>
+                </td>
+               
+            </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>

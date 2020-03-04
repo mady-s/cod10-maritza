@@ -1,0 +1,114 @@
+<!--Doctype me indica que mi documento está utilizando HTML en su versión 5-->
+<!DOCTYPE html>
+<!--va a tener iuna etiqueta de apertura y una etiqueta de cierre </etiqueta>-->
+<html>
+<!--<heades el contenido que usualmente no vemos pero es importatnte para el navegador-->
+    
+        <!-- un atributo va así: "valor_del_atributo"-->
+    <head lang="es">
+        <meta name="description" content="HTML5, Código, Web, Lentejistas, Página inicial de alumnos de Código"/>
+        <meta name="Keywords" content="Web,VSCode,Arequipa, Paucarpata, Tecnologia"/>
+        <!-- Unicode 8, que es la codificación -->
+        <meta charset="UTF-8"/>
+        <!-- Sirve para mostrar el título en la pestaña del navegador -->
+        <link rel="icon" type="image/png" href="./favicon.png"/>
+        <title>Codigo, Bootcamp de Desarrollo WEB</title>
+    </head>
+    <body>
+        <!--El contenido que si es visible usualmente en mi pagina web-->
+        <!-- Contenedores semánticos  -->
+        <header>
+            <h1>Titulo de mi Página web</h1>
+            <!-- <h2>Titulo de mi Página web</h2>
+            <h3>Titulo de mi Página web</h3>
+            <h4>Titulo de mi Página web</h4>
+            <h5>Titulo de mi Página web</h5>
+            <h6>Titulo de mi Página web</h6> -->
+        </header>
+        <nav>
+            <!-- unordened list, Lista desordenada -->
+            <ul>
+            <!-- lista -->
+            <!-- el michi o numeral, usualemnte hace referencia aun ID -->
+                <li><a href="#articulo1">Artículo 1</a></li>
+                <li><a href="#articulo2">Artículo 2</a></li>
+                <li><a href="#articulo3">Artículo 3</a></li>
+                <li><a href="#articulo4">Artículo 4</a></li>
+                <li><a href="http://youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="./02-imagenes.html" target="_blank">Fotos</a></li>
+                <li><a href="./03-listas.html" target="_self">Listas</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2 id="articulo1">Título del Articulo1</h2>
+                    <!-- párrafo -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora sunt, eos corrupti quasi vel reiciendis maxime nihil quas cum consequuntur, adipisci quis ipsa, sit voluptate odio quae ab dolorem! Porro? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia animi ea, rerum natus beatae excepturi alias corrupti dolores unde nobis rem voluptas possimus modi quia consequatur magnam quibusdam pariatur consectetur.<br/>
+                    Minima tempore maxime sint beatae, temporibus consequatur vitae omnis, numquam natus, deserunt necessitatibus. Ipsam error itaque iste consectetur, officiis et blanditiis provident dolorum cupiditate, nesciunt qui necessitatibus ut mollitia est.  
+                    <br/>
+                    <br/>
+                    Ab earum explicabo quod, labore omnis animi illo vitae nobis est repellat voluptas nihil nesciunt dolorum dicta enim. Quisquam ab corrupti quos nostrum. Incidunt pariatur odit dignissimos impedit numquam quisquam.
+                    Quis eaque qui atque tenetur eum saepe, soluta aperiam cumque porro repellat ratione numquam voluptatibus itaque doloremque quo optio at rem laborum maiores veritatis quae dignissimos aliquid doloribus! Nihil, voluptatum.</p>
+                </article>
+                <article>
+                    <h2 id="articulo2">Título del Articulo2</h2>
+                    <!-- párrafo -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora sunt, eos corrupti quasi vel reiciendis maxime nihil quas cum consequuntur, adipisci quis ipsa, sit voluptate odio quae ab dolorem! Porro?</p>
+                    <pre>
+                        L etiqueta pre, sirve para mostrar el código
+                        TAL           COMO SE ESCRIBE EN NUESTRO 
+                        HTML
+                    </pre>
+                    <code>
+                        var x = 90;
+                    </code>
+                    <time> 12: 50 </time>
+                </article>
+                <article>
+                    <h2 id="articulo3">Título del Articulo3</h2>
+                    <!-- párrafo -->
+                    <p>Lorem ipsum dolor sit, <span style="color: pink;">amet consectetur</span> adipisicing elit. <br>
+                        Tempora sunt, eos corrupti quasi vel reiciendis maxime nihil quas cum consequuntur, adipisci quis ipsa, sit voluptate odio quae ab dolorem! Porro?</p>
+                </article>            <article>
+                    <h2 id="articulo4">Título del Articulo4</h2>
+                    <!-- párrafo -->
+                    <p><em>Un texto en cursiva</em>Lorem ipsum dolor sit, amet <strong>Esto es IMPORTANTE</strong> adipisicing elit. Tempora sunt, eos corrupti quasi vel reiciendis maxime nihil quas cum consequuntur,<br> adipisci quis ipsa,
+                    <br>
+                    <u>TEXTO SUBRAYADO</u>sit voluptate<br> odio quae     
+                    <br>
+                    <i>EN CURSIVA, TEXTO</i>ab dolorem! 
+                    <br>
+                    <b>Texto en NEGRITA</b>Porro?</p>
+                </article>
+            </section>
+        </main>
+        <aside>
+            <h3>Redes Sociales</h3>
+            <!-- Lista ordenada -->
+            <ol>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://youtube.com">Youtube</a></li>
+                <li><a href="https://instagram.com">Insatagram</a></li>
+            </ol>
+            <div>
+                <h3>
+                    <img src="./assets/parasite.jpg" width="300px"></img>
+                </h3>
+            </div>
+        </aside>
+        <footer>
+            <span>
+                CODIGO-DERECHOS RESERVADOS
+            </span>
+            <span>
+               MARZO 2020
+            </span>
+            <mark>RESALTADO DEL TEXTO</mark>
+            <small>Ver el contenido informativo, pero chiquito</small>
+            <cite>[1] Garcia Marquez, El amor en mis tiempo de Pruba</cite>
+            <address>Av. Los Palotes 400, Dolores</address>
+        </footer>
+    </body>
+</html>

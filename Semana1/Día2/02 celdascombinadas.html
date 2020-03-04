@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celdas Combinadas</title>
+</head>
+<body>
+    <combinadas>
+        <nav>
+            <h2>MENÚ</h2>
+            <ul>
+                <li>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </nav>
+    </combinadas> 
+
+    <!-- header>h1{celdas combinadas}^nav>h2{menu} -->
+    <!-- #definir el id
+    . definir clase -->
+
+    <main>
+        <section id="miseccion1">
+            <h3>Celdas Combinadas</h3>
+            <table border="1">
+
+                <header>
+                        <h1>celdas combinadas</h1>
+                </header>
+
+                <tbody>
+                    <!-- tr*5>td -->
+                    <tr>
+                        <td colspan="2">Fila 1 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 2 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 3 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Fila 4 columna 1</td>
+                        <td>Fila 4 columna 2</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 5 columna 2</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    
+    <br>
+
+        <section id="miseccion2">
+            <table border="2">
+
+            <thead>
+                <tr>
+                    <th rowspan="2">Tabla avanzada</th>
+                    <th colspan="2">Cabecera Multiples Columnas</th>
+                </tr>
+                <tr>
+                    <th>Primera Col. Cab</th>
+                    <th>Segunda Col.cab</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Fila 1</td>
+                    <td>Fila 1 columna 1</td>
+                    <td>Fila 1 Columna 2</td>
+                </tr>
+                <tr>
+                    <td>Fila 2</td>
+                    <td>Fila 2 columna 2</td>
+                    <td>Fila 2 columna 2</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Pie de tabla</td>
+                </tr>
+            </tfoot>
+
+            </table>
+        </section>
+
+        <br>
+
+        <section id="miseccion3">
+            <table border="2">
+                    <tbody>
+                        <tr>
+                            <td>Fila 1 col1</td>
+                            <td>fila1 col 2</td>
+                            <td>fila2 col 3</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">fila 2 col 1 y 2</td>
+                            <td>fila 2 col 3</td>
+                        </tr>
+                        <tr>
+                            <td>fila 3 col 1</td>
+                            <td colspan="2">fila 3 col 2 y 3</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Fila 4 col 1, 2 y 3</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">fila 5 y fila 6 col 1</td>
+                            <td>fila 5 col 2</td>
+                            <td rowspan="2">fila 5 y fila 6 col 1</td>
+                        </tr>
+                        <tr>
+                            <td>fila 6 col 2</td>
+                        </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <table border="2">
+                <tbody>
+                    <tr>
+                        <td>1-1</td>
+                        <td>1-2</td>
+                        <td>
+                            <table border="2">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+
+                            <table border="2" width=100>
+                                <tbody>
+                                   <tr>
+                                       <td>1</td>
+                                       <td>2</td>
+                                       <td>3</td>
+                                       <td>4</td>
+                                       <td>5</td>
+                                   </tr>
+                                </tbody>
+                            </table>
+
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3-1</td>
+                        <td>
+
+                            <table border="2" width=100>
+                                <tbody>
+                                    <tr>
+                                        <td>1-1</td>
+                                        <td>1-2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2-1</td>
+                                        <td>2-2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
+
