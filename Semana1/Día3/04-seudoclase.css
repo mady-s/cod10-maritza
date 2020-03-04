@@ -1,0 +1,40 @@
+/* Pseudo clases */
+/* Selector: pseudo */
+
+/* Segun la posicion del elemento cogera el estilo */
+p:nth-child(3){
+    color: blue;
+    font-weight: bold;
+
+}
+/* cogera el primer elemento */
+p:first-child{
+    color: red;
+}
+/* cogera el ultimo elemento */
+p:last-child{
+    color: green;
+}
+
+/* modificará los elementos impares */
+tr:nth-child(odd){
+    background-color: lightcoral;
+}
+
+/* modificará los elementos pares */
+
+tr:nth-child(even){
+    background-color: lightseagreen;
+}
+
+thead tr:nth-child(1){
+    background-color:blue;
+    color:white;
+}
+
+/* Va a buscar todos los div le pondra estas propiedades excepto la clase la clase o valor que se lo pase  */
+
+div:not(.exception){
+    font-size: 20px;
+    border:1px solid darkblue;
+}
