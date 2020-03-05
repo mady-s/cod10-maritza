@@ -27,7 +27,7 @@ img{
    
     filter: grayscale(0.3);
      /* Usando para determinar el contraste de la imagen, mientras mas se aproxime a 1 sera su contraste natural  */
-    filter: contrast(0.9);
+    filter: contrast(0.8);
     /* interviene los colores de la imagen con sus negativos, miestras mas se aproxime a 1 sus negativos serán mas intensos */
     filter: invert(0.5);
     /* En la pagina 127 en el libro, en el PDF reader 142 */
