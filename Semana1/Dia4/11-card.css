@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: cadetblue;
+}
+header{
+    border:2px solid double violet;
+    padding: 10px;
+    margin: 20px auto;
+    width: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(137, 236, 240);
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: darkcyan;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: gray 5px 5px 10px;
+    border-radius: 20px;
+}
+.superior{
+    height: 300px;
+    background-color: hotpink;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px 0;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    background-image: url('./perfil.jpg');
+    background-size: 100%;
+}
+.superior h4{
+    font-family: 'Lobster', cursive;
+    color: purple;
+    font-size: 40px;;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+.inferior{
+    padding: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+table{
+    margin:auto;
+    margin-top: 10px;
+}
+td{
+    padding: 3px;
+}
+td:first-child{
+    font-weight: bold;
+}
+.color td{
+    border-color: #000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display:inline-block;
+}
+.red{
+
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

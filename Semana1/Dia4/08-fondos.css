@@ -1,0 +1,41 @@
+/* resetear los estilos */
+*{
+    margin:0;
+    padding:0;
+}
+/* reset */
+html, body{
+    height: 100%;
+}
+.section1{
+    width: 400px;
+    /* ancho-borde */
+    border-width: 1px;
+    /* estilos borde, solid, dashed, double solid groove */
+    border-style: dotted;
+    border-color: blue;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    background-image: url('./colibri.png');
+    /* repeat x-horizontal, repeat y - vertical, repeat no-repeat-no repetir */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: #cc0668;
+}
+.section2{
+    background-image: url('./textura.jpg');
+    height: 300px;
+}
+.section3{
+    height: 500px;
+    background-image: url('./ave.png');
+    background-size: 100%;
+    background-attachment: fixed;
+}
