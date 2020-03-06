@@ -1,0 +1,114 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border:2px solid transparent;
+    margin: 10%;
+
+    /* CONFIGURO LA ANIMACIÓN */
+
+    /* animation-name:referenciar el nombre de mi animacion */
+    animation-name: cambiarcolores;
+    /* Cuanto va a durar mi animacion */
+    animation-duration: 4s;
+    /* retrazo hasta que comience a animarse */
+    animation-delay: 2s;
+    animation-timing-function:ease-in);
+}
+/* @keyframes nombreanimacion no cambia */
+@keyframes cambiarcolores{
+    /* #%{propiedad: valor;} */
+    /*AQUI SOLO DEFINO LAS PROPIEDADESQUE VAN A CAMBIAR POR FRAME */
+    0%{
+        background-color: violet;
+    }
+    25%{
+        background-color: #00bbcc;
+        /* scale, va a escalar mi elemento en valor a partir de 0 a mas de 1(1.1, 1.2) en decimales */
+        transform: scale(0.5);
+    }
+    50%{
+        background-color: yellowgreen;
+        transform: scale(1.3);
+    }
+    75%{
+        background-color: crimson;
+        transform: scale(0.2);
+    }
+    100%{
+        background-color: slateblue;
+    }
+}
+.cajita{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    /* me agr */
+    /* animation:trasformarcaja 0s;
+     */
+     animation: trasformarcaja 10s;
+}
+@keyframes trasformarcaja{
+    0%{
+        background-color: lightpink;
+        transform: translate(0%,0%);
+    }
+    25%{
+        background-color: magenta;
+        border-radius: 50%;
+        /* movera la posicion de mi elemento, con un solo parametro se ,moverá al eje x */
+        transform: translate(400px);
+    }
+    50%{
+        background-color: mediumturquoise;
+        /* con 2 parametros translate se moverá en el eje x y eje y */
+        transform: translate(300px,500px);
+    }
+    75%{
+        background-color: purple;
+        /* rotate rotará mi elemento según la cantidad de grados que yo le diga */
+        /* transform: rotate(45deg); */
+        /* Se puede combinar varias transformacion  */
+        transform: translate(100px, 100px) rotate(45deg);
+    }
+}
+.avion{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: purple;
+    animation: avion 10s;  
+}
+@keyframes avion{
+    0%{
+        background-color: red;
+        transform: translate(0%, 0%);
+    }
+    25%{
+        background-color:blue;
+        transform:translate(300px);
+    }
+    50%{
+        background-color: chartreuse;
+        transform:translate(300px, 300px) rotate(180deg);
+    }
+    75%{
+        background-color: #0000ff;
+        transform:translate(0px, 300px) rotate(360deg);
+    }
+    100%{
+        background-color: #0000ff;
+        transform:translate(0px, 0px) rotate(360deg);
+    }
+    
+
+}

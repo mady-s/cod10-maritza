@@ -1,0 +1,36 @@
+div{
+    width: 150px;
+    height: 50px;
+    border:1px solid red;
+    margin: 5px;
+}
+#cajapapa{
+    width: 648px;
+    border:1px solid green;
+    position: relative;
+}
+#caja1{
+    position: absolute;
+    float: left;
+    top: 25px;
+    left: 25px;
+    background-color: lightseagreen;
+    z-index: 2;
+}
+#caja2{
+    position: absolute;
+    float: left;
+    background-color: hotpink;
+    z-index: 1;
+}
+#caja3{
+    position: absolutre;
+    left:200px;
+    float: right;
+    background-color: indigo;
+    z-index: 3;
+}
+#caja4{
+    float: right;
+    background-color: lawngreen;
+}
