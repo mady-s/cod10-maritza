@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#cabeceralogo{
+    width: 96%;
+    padding:0 2%;
+    height: 150px;
+    background-color:#ff6155;
+}
+#cabeceralogo > div{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+#cabeceralogo h1{
+    font-family: 'Great Vibes', cursive;
+    color: bisque;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 2%;
+}
+#menuprincipal{
+    width: 96%;
+    height: 50px;
+    padding:0 2%;
+    background-color:rgb(23, 152, 161);
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+
+}
+#menuprincipal > div{
+    width: 960px;
+    margin: 0 auto;
+}
+#menuprincipal li{
+    display: inline-block;
+    height: 35px;
+    /* margin padding - 10px 10px 10px 10px --segun las ahujas del reloj */
+    padding: 15px 10px 0 10px;
+    margin-right: 5px;
+}
+#menuprincipal li:hover{
+    background-color:  #2bf1b6;
+    cursor: pointer;
+}
+#menuprincipal a{
+    font: bold 18px Arial;
+    color: black;
+    text-decoration: none;
+}
+#listamenu > li{
+    position: relative;
+    display: inline-block;
+
+}
+#listamenu li > ul{
+    display: none;
+    /* NONE - no se van a mostrar */
+    position: absolute;
+    /* para que se valla segun la posicion del papa */
+    top:50px;
+    left: 0;
+    background-color: mediumaquamarine;
+    box-shadow: 3px 3px 4px black;
+    border-radius: 0 0 5px 5px;
+    z-index: 999;
+    /* siempre se muestren en sima de cualquier objeto  */
+
+}
+#listamenu li:hover ul{
+    display: block;
+}
+main{
+    width: 96%;
+    padding:2%;
+    height: 100%;
+    background-image: url('./assets/fondo.png');
+    background-size: cover;
+    /* HARA QUE LA IMAGEN NO SE REPITA ...Y QUE BARQUE A TODA LA PANTALLA  */
+    background-repeat: repeat;
+
+}
+main > div{
+    width:960px;
+    margin: 0 auto;
+}
+#articulosprincipales{
+    float: left;
+    width: 620px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+}
+article{
+    position: relative;
+}
+article time{
+    width: 80px;
+    position: absolute;
+    /* debo de ponerle en su padre una position absolute */
+    top: -5px;
+    left: -100px;
+    background-color: coral;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+.numerodia{
+    font: bold 36px 'Great Vibes', cursive;
+    color: bisque;
+    text-align: center;
+}
+.nombredia{
+    font: 12px  'Great Vibes', cursive;
+    color: bisque;
+    text-align: center;
+}
+article h2{
+    font:bold 28px  'Great Vibes', cursive;
+    margin-bottom: 5px;
+}
+article p{
+    font: 18px 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+figure{
+    margin-bottom:10px;
+}
+figure img{
+    padding: 5px;
+    border: 1px solid gray;
+
+}
+.infoadicional{
+    float: right;
+    width: 240px;
+    padding: 20px;
+    background-color: grey;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    width: 96%;
+    padding: 2%;
+    background-color: goldenrod;
+
+}
+footer >div{
+    width: 960px;
+    margin: 0 auto;
+}
+.recuperar{
+    clear: both;
+}

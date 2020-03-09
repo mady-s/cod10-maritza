@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 10px;
+    border: 1px solid gray;
+    /* IMPORTANTE */
+    box-sizing: border-box;
+}
+.block{
+    display: block;
+    width: 300px;
+    background-color: hotpink;
+}
+.inlineblock{
+    width: 200px;
+    height: 100px;
+    background-color: indigo;
+    display: inline-block;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5{
+    width: 200px;
+    height: 200px;background-color: orange;
+    /* Apeguen a la izquierda */
+    float: left;
+}
+.reparar{
+    /* left, rigth y both */
+    clear: both;
+}
+.caja2{
+    /* Relativa a si mismo donde debería ubicarse */
+    /* 1, Me esta respetando la estructura html y sius hermanitos tambien
+    2, se mueve a partir de su posicion relativa  */
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.caja4{
+    /* Posicion absolute
+    1, es como yo lo moviera este elemento del html
+    2, se va a colocar referente al ultimo ancestro  que tenga una posicion definida  */
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    background-color: palegreen;
+
+}
+.padre{
+    /* ancestro se comporta como si fuera copas u hojas encima de otras, tiene que tener un aposition absolute o relative */
+    position: relative;
+}
+.caja1{
+    position: relative;
+    z-index: 3;
+}
+
+.publicidad{
+    border: 2px dashed yellow;
+    background-color: teal;
+        /* posicionara mi elemento pero apartir de la ventana del navegador */
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 200px;
+    height: 200px;
+}

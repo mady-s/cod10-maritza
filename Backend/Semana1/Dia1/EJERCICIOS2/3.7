@@ -1,0 +1,33 @@
+Algoritmo alumnos_becados
+	Escribir "¿Cuantos años tienes?"
+	Leer edad
+	Escribir "¿Cuanto es tu promedio?"
+	Leer promedio
+	si edad>18 Entonces
+		si promedio>=9 Entonces
+			Escribir "Recibira una beca de $2000"
+		SiNo
+			si promedio>=7.5 Entonces
+				Escribir "Recibira una beca de $1000"
+			SiNo
+				si promedio>=6 Entonces
+					Escribir "Recibira una beca de $500"
+				SiNo
+					Escribir "Recibirá un carta de invitacion insitandolos a que estudien más para el proximo ciclo escolar"
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		si promedio>=9 Entonces
+			Escribir "Recibira una beca de $2000"
+		SiNo
+			si promedio>=6 Entonces
+				Escribir "Recibirá una beca de $100"
+			SiNo
+				Escribir "Recibirá un carta de invitacion insitandolos a que estudien más para el proximo ciclo escolar"
+			FinSi
+		FinSi
+		
+	Finsi
+	
+FinAlgoritmo

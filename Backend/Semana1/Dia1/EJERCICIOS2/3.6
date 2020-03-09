@@ -1,0 +1,20 @@
+Algoritmo comprar_rropa
+	Escribir "¿Cuanto dinero tiene para comprar una ropa?"
+	Leer dinero
+	si dinero <=100 Entonces
+		dinero1= dinero*0.10
+		Escribir "Podrá comprar una ropa con el 10% de descuento, pagaría:"  (dinero-dinero1)
+	SiNo
+		si dinero<200 Entonces 
+			dinero2 =dinero*0.12
+			Escribir "Podrá comparar una ropa con el 12% de descuento, pagaría"  (dinero-dinero2)
+		SiNo
+			si dinero>=200 Entonces
+				dinero3 = dinero*0.15
+				Escribir "Podrá comparar una ropa con el 15% de descuento, pagaría"  (dinero-dinero3)
+				
+			FinSi
+		FinSi
+	FinSi
+	
+FinAlgoritmo
