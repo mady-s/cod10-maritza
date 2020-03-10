@@ -1,0 +1,31 @@
+Algoritmo persona_recorrido
+	Escribir "¿A que lugar desea viajar a Mexico, P.V, Acapulco o Cancún?"
+	leer ciudad
+	si ciudad==Mexico entonces
+		costoM=(750*0.5)
+		Escribir "Su pasaje le costará" (costoM)
+			sino ciudad==P.V entonces
+			si costoP==(800*0.5)
+			Escribir "Su pasaje le costará" (costoP)
+		
+
+
+Algoritmo persona_recorrido
+	Escribir "¿A que lugar desea viajar a Mexico, P.V, Acapulco o Cancún?"
+	Leer cuidad
+	si ciudad==Mexico Entonces
+		costoM= 750*0.5
+		Escribir "Su pasaje a Mexico le costará:" costoM
+	SiNo
+		si ciudad==P.V Entonces 
+			costoP =800*0.5
+			Escribir "Su pasaje a P.V le costará" costoP
+		SiNo
+			si ciudad==Acapulco Entonces
+				costoA = 1200*0.5
+				Escribir "Su pasaje a P.V le costará" costoA
+				
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

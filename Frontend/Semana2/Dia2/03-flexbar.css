@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* temporal  */
+    /* border: 1px solid gray; */
+}
+html,body{
+ height: 100%;
+ width: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* padding: 20px; */
+    justify-content: space-between;
+    /* border: 1px solid #000000; */
+    background-color: #100E17;
+}
+.logo{
+    /* tamaño base  */
+    flex-basis: 200px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px;
+}
+.logo i{
+    color: #FF8A00;
+}
+.items{
+    flex-basis: 600px;
+    flex-grow: 6;
+    display: flex;
+
+}
+.buscar{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+.logo span{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 22px;
+    /* flex-grow: 1; */
+    color: white;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    color: whitesmoke;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+    font-size: 10px;
+    ;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscar input{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px 0 0 10px;
+    background-color:#201C29 ;
+    border 1px solid gray;
+}
+.buscar button{
+    width: 30px;
+    height: 25px;
+    border-radius: 0px 10px 10px 0px;
+    background-color:#FF8A00;
+}
+.buscar i{
+    color:whitesmoke;
+}
+/* .item i:hover{
+    color: #FF8A00;
+    background-color: #201C29;
+} */
+
+.item:nth-of-type(1):hover{
+    color: #FF8A00;
+    background-color: #201C29;
+}
+.item:nth-of-type(2):hover{
+    color: #FF0000;
+    background-color: #201C29;
+}
+.item:nth-of-type(3):hover{
+    color: #00FF00;
+    background-color: #201C29;
+}
+.item:nth-of-type(4):hover{
+    color: #0000ff;
+    background-color: #201C29;
+}
+.item:nth-of-type(5):hover{
+    color: hsl(194, 100%, 50%);
+    background-color: #201C29;
+}
+.item:nth-of-type(5):hover{
+    color: hsl(194, 100%, 50%);
+    background-color: #201C29;
+}
+.item:nth-of-type(6):hover{
+    color: hsl(76, 89%, 51%);
+    background-color: #201C29;
+}
+/* }
+.item:nt-of-type(1):hover
+ */
