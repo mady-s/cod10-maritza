@@ -19,9 +19,13 @@ html,body{
     border: 1px solid purple;
     margin: 20px auto;
 }
+.papa2{
+    width: 60%;
+    
+}
 .cuadro2{
     height: 900px;
-    width: 300px;
+    width: 40%;
     background-color: pink;
     border: 1px solid purple;
 }
@@ -39,7 +43,7 @@ html,body{
 }
 .cuadro5{
     height: 400px;
-    width: 300px;
+    width: 60%;
     background-color: pink;
     border: 1px solid purple;
 }

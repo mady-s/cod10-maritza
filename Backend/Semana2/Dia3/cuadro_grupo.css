@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.tabla{
+    width: 80%;
+    height: 450px;
+    margin: 10px auto;
+    text-align: left;
+   
+}
+/* cogera el primer elemento */
+th:first-child{
+    background-color:#E6F49A;
+    padding: 10px;
+    font-size: 18px;
+}
+.tabla td{
+    padding: 0px 10px;
+    font-size: 16px;
+    height:150px;
+
+}
+
+.imagen{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+
+}
+.imagen img{
+    width: 130px;
+    /* height: 90%; */
+}

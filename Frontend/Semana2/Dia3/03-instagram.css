@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* resetar */
+
+.post-list{
+    border: 1px solid gray;
+    display: grid;
+    /* que me cree 3 columnas  */
+    grid-template-columns: repeat(3,minmax(250px,350px));
+    grid-gap: 28px;
+    /* todo este en el centro */
+    justify-content: center;
+}
+
+.post{
+    position: relative;
+    display:block;
+    cursor: pointer;
+    /* aparece  */
+}
+.post-image img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.post-overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    /*position:absolute Se acomodará a su contenedor que el de nosotrso es post */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    text-align: center;
+    display:none;
+    /* none permite que cuando se ponga el mause en sima se  */
+    align-items: center;
+    justify-content:center ;
+}
+.post:hover .post-overlay{
+    display: flex;
+}
+.linkes, .comments{
+    font: 'Arial', sans-serif;
+    margin: 0.5px;
+}
+@media screen and (max-width:768px){
+    /* post-list...es nuestro section */
+    .post-list{
+        grid-gap: 3px;
+    }
+}
