@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.gigante{
+    display: ;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+.titulotabla{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 40px;
+    height: 100px;
+    font-size: 40px;
+    background-color: rgb(233, 116, 116);
+    border: 10px solid red;
+}
+.reparar{
+    clear: both;
+}
+form{
+    padding-top: 300px;
+    display: block;
+    float: left;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    display: block;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: orange;
+    font-size: 30px;
+  }
+  
+  .clasificacion {
+      float: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: purple;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: purple;
+  }
+  .coment{
+      display: flex;
+      background-color: rgb(233, 202, 176);
+      border: 1px solid black;
+      
+  }
+  .lineas{
+      font-size: 30px;
+  }
+  .tresvideos{
+      display: flex;
+  }
+  .videos{
+      margin: 5px;
+  }
+  .partebaja{
+      display: block;
+      border: 1px solid black;
+  }
+  iframe{
+      margin: 2%;
+  }
+  .dado{
+      display: flex;
+    float: right;
+  }
+  .dado1{
+    font-size: 25px;
+  }

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 96%;
+    margin: auto;
+}
+
+/* --------------maritza------- */
+.cabecera{
+    border: 1px solid gray;
+    height: 100px;
+    display: grid;
+    grid-template: 1fr / 1fr 3fr 2fr;
+    /* grid-template:repeat(1, 1fr) / repeat(3, 1fr); */
+    grid-gap: 10px;
+    width: 100%;
+    /* align-content: center; */
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.logo1{
+    minmax(30px, 100px);
+    margin: auto;
+}
+.logo1 img{
+    height: 100px;
+    /* width: 100px */
+}
+
+.logo2{
+    minmax(50px, 80px);
+    margin: auto;
+}
+.logo2 img{
+    height: 60px;
+    /* width: 300px; */
+}
+
+.titulo{
+    /* margin: auto; */
+    /* margin: auto; */
+    font-size: 25px;
+}
+.titulo p{
+    /* text-align: center; */
+    color: aqua;
+    font-weight: bold;    
+}
+
+/* ----hebert------ */
+
+.descripVideo {
+    display: flex;
+    margin: 0 10%;
+}
+
+.descripcion {
+    height: 96%;
+    margin: 0 5%;
+}
+
+.descripcion h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.descripVideo p {
+    font-size: 40px;
+}
+
+#titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#check {
+    height: 20px;
+    width: 20px;
+}
+
+.video {
+    height: 96%;
+}
+
+
+/* --Alejandro-- */
+
+.men1 {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.meu {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.men1 a {
+    padding: 0;
+    width: 100%;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+.mee2 {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.me1 {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+
+/* --santiago-- */
+
+.videos {
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1.5px solid gray; */
+}
+
+.vid1 {
+    width: 20%;
+    height: 30%;
+}
+
+.comen {
+    height: 280px;
+    font-size: 25px;
+}
+
+.repa {
+    clear: both;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+    font-size: 60px;
+}
+
+.clasificacion {
+    float: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: orange;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.reproduc {
+    margin-bottom: 2px;
+}
+
+
+/* santiago---footer */
+
+footer {
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+    border-top: 1px solid black;
+    margin-top: 5%;
+}
+
+.cont {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    margin: 0px 40px 0 40px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.map {
+    margin: 20px;
+}
+
+.reparar {
+    clear: both;
+}

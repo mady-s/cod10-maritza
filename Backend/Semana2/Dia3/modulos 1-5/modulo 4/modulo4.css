@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 96%;
+    margin: auto;
+}
+/* -----maritza----- */
+.cabecera{
+    border: 1px solid gray;
+    height: 100px;
+    display: grid;
+    grid-template: 1fr / 1fr 3fr 2fr;
+    /* grid-template:repeat(1, 1fr) / repeat(3, 1fr); */
+    grid-gap: 10px;
+    width: 100%;
+    /* align-content: center; */
+    justify-content: center;
+}
+.logo1{
+    minmax(30px, 100px);
+    margin: auto;
+}
+.logo1 img{
+    height: 100px;
+    /* width: 100px */
+}
+
+.logo2{
+    minmax(50px, 80px);
+    margin: auto;
+}
+.logo2 img{
+    height: 60px;
+    /* width: 300px; */
+}
+
+.titulo{
+    /* margin: auto; */
+    /* margin: auto; */
+    font-size: 25px;
+}
+.titulo p{
+    /* text-align: center; */
+    color: aqua;
+    font-weight: bold;    
+}
+.nube{
+    /* border: 1px solid gray; */
+    display:grid;
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    grid-template:1fr / 1fr 2fr;
+}
+.imagen{
+    margin: auto;
+    /* background-color: green; */
+}
+.imagen img{
+    height:140px;
+}
+.subir{
+    margin: auto;
+
+}
+.subir h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+/* ------alejandro------ */
+
+.archivo{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+.arch{
+    display: flex;
+    flex-direction: row;
+}
+.fil{
+    width: 15%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.fil h3{
+    font-size: 30px;
+}
+.fil2{
+    width: 70%;
+    height: 50px;
+    padding: auto;
+    margin: auto 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.fil3{
+    width: 25%;
+    margin: auto 0;
+}
+.fil3 button{
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    background-color: skyblue;
+    border-radius: 0 9px 9px 0;
+}
+.chek{
+    margin: auto 10px;
+    
+}
+.adver{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+
+/* ---santiago--------- */
+
+.tablamod4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.formu{
+
+    height: 300px;
+    width: 70%;
+    /* margin-top: 30px; */
+     
+     
+} 
+.grande{
+    
+    
+    border: 1px solid black;
+}
+.cate{
+    border: 1px solid black;
+    background-color: rgb(194, 231, 156);
+    width: ;
+    
+}
+.eti{
+    border: 1px solid black;
+    background-color: rgb(136, 165, 218);
+}
+.descr{
+    border: 1px solid black;
+    background-color: rgb(226, 158, 172);
+}
+.span2{
+    margin-left: 30px;
+    font-size: 35px;
+
+}
+.check{
+    height: 20px;
+    width: 20px;
+    border-bottom: 0px;
+    background-color: white;
+    margin: 10px;
+    
+}
+.texto{
+    margin: 10px;
+    margin-top: 14px;
+    margin-left: 40px;
+    color: rgb(223, 212, 212);
+    font-weight: bold;
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: red;
+    border: 1px solid black;
+    width: 90%;
+}
+.checttt{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* ---------Hebert----------- */
+
+.checkCalendario{
+    margin:5% 15% ;
+    font-size: 30px;
+}
+
+#check{
+    height: 25px;
+    width: 25px;
+}
+
+#calendario{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.PieForm{
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.PieForm input{
+    padding: 10px 70px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+}
+
+/* santiago---footer */
+
+footer {
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.cont {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    margin: 0px 40px 0 40px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.map {
+    margin: 20px;
+}
+
+.reparar {
+    clear: both;
+}

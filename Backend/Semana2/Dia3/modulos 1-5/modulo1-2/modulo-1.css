@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 96%;
+    margin: auto;
+}
+
+.contenedor {
+    height: 500px;
+}
+
+.parrafo {
+    height: 120px;
+    margin: 0 10%;
+}
+
+.parrafo p {
+    margin: 0 5%;
+}
+
+.descripVideo {
+    display: flex;
+    margin: 0 10%;
+}
+
+.descripcion {
+    /* width: 30%; */
+    height: 96%;
+    color: red;
+    font-weight: bold;
+    margin: 0 5%;
+}
+
+.video {
+    /* width: 66%; */
+    height: 96%;
+}
+
+
+/* ----------alejandro---- */
+
+.cabecera {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding-top: 30PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo h1 {
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.men {
+    width: 100%;
+    height: 100PX;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.menu {
+    flex-basis: 20%;
+    text-align: center;
+    font-size: 190%;
+    
+}
+
+.me1 {
+    border-right: 3px solid black;
+}
+
+.me2 {
+    border-right: 3px solid black;
+}
+
+.me3 {
+    border-right: 3px solid black;
+}
+
+.me4 {
+    border-right: 3px solid black;
+}
+
+.menu:hover {
+    color: blueviolet;
+}
+
+
+/* ---------------- */
+
+
+/* maritza */
+
+.tabla {
+    width: 80%;
+    height: 40%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.tabla tr {
+    height: 120px;
+}
+
+
+/* cogera el primer elemento */
+
+th:first-child {
+    background-color: #E6F49A;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tabla td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.imagen {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.imagen img {
+    width: 130px;
+    /* height: 90%; */
+}
+
+
+/* ------------- */
+
+
+/* santiago */
+
+footer {
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.cont {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    margin: 0px 40px 0 40px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.map {
+    margin: 20px;
+}
+
+.reparar {
+    clear: both;
+}
+
+
+/* -------------- */
+/*----- efecto corazones----- */
+
+#form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+    font-size: 60px;
+  }
+  
+  .clasificacion {
+      float: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: black;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: black;
+  }
+  h2{
+      font-size: 40px;
+      font-weight: normal;
+      margin-bottom: 30px;
+  }
+  .reproduc{
+      margin-bottom: 2px;
+  }

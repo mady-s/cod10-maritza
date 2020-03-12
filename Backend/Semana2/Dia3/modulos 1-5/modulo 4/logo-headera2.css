@@ -7,7 +7,7 @@
     border: 1px solid gray;
     height: 100px;
     display: grid;
-    grid-template: 1fr / 1fr 3fr 1fr;
+    grid-template: 1fr / 1fr 3fr 2fr;
     /* grid-template:repeat(1, 1fr) / repeat(3, 1fr); */
     grid-gap: 10px;
     width: 100%;
@@ -41,4 +41,27 @@
     /* text-align: center; */
     color: aqua;
     font-weight: bold;    
+}
+.nube{
+    /* border: 1px solid gray; */
+    display:grid;
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    grid-template:1fr / 1fr 2fr;
+}
+.imagen{
+    margin: auto;
+    /* background-color: green; */
+}
+.imagen img{
+    height:140px;
+}
+.subir{
+    margin: auto;
+
+}
+.subir h1{
+    font-size: 40px;
+    padding-top: 30px;
 }

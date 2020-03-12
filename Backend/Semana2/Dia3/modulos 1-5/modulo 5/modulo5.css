@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cabecera{
+    border: 1px solid gray;
+    height: 100px;
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 1fr;
+    /* grid-template:repeat(1, 1fr) / repeat(3, 1fr); */
+    grid-gap: 10px;
+    width: 100%;
+    /* align-content: center; */
+    justify-content: center;
+}
+.logo1{
+    minmax(30px, 100px);
+    margin: auto;
+}
+.logo1 img{
+    height: 100px;
+    /* width: 100px */
+}
+
+.logo2{
+    minmax(50px, 80px);
+    margin: auto;
+}
+.logo2 img{
+    height: 60px;
+    /* width: 300px; */
+}
+
+.titulo{
+    /* margin: auto; */
+    /* margin: auto; */
+    font-size: 25px;
+}
+.titulo p{
+    /* text-align: center; */
+    color: aqua;
+    font-weight: bold;    
+}
+.nube{
+    /* border: 1px solid gray; */
+    display:grid;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    grid-template:1fr / 1fr 2fr;
+}
+.imagen{
+    margin: auto;
+    padding: none;
+    /* background-color: green; */
+}
+.imagen img{
+    height:140px;
+}
+.subir{
+    margin: auto;
+
+}
+.subir h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+/* ------santiago canales------ */
+.gigante{
+    display: ;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+.titulotabla{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 40px;
+    height: 100px;
+    font-size: 40px;
+    background-color: rgb(233, 116, 116);
+    border: 10px solid red;
+}
+
+.titulotabla2{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-top: 40px;
+    height: 100px;
+    font-size: 40px;
+    background-color: rgb(226, 185, 185);
+    border: 10px solid rgb(240, 186, 133);
+}
+.reparar{
+    clear: both;
+}
+form{
+    padding-top: 300px;
+    display: block;
+    float: left;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    display: block;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: orange;
+    font-size: 30px;
+  }
+  
+  .clasificacion {
+      float: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: purple;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: purple;
+  }
+  .coment{
+      display: flex;
+      background-color: rgb(233, 202, 176);
+      border: 1px solid black;
+      
+  }
+  .lineas{
+      font-size: 30px;
+  }
+  .tresvideos{
+      display: flex;
+  }
+  .videos{
+      margin: 5px;
+  }
+  .partebaja{
+      display: block;
+      border: 1px solid black;
+  }
+  iframe{
+      margin: 2%;
+  }
+  .dado{
+      display: flex;
+    float: right;
+  }
+  .dado1{
+    font-size: 25px;
+  }
+/* santiago---footer */
+
+footer {
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.cont {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    margin: 0px 40px 0 40px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.map {
+    margin: 20px;
+}
+
+.reparar {
+    clear: both;
+}

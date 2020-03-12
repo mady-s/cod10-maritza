@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.tituformu{
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+.titu{
+    display: inline-block;
+    font-size: 60px;
+    margin-left:  70px;
+    margin-bottom: 30px;
+
+}
+
+.usuarioform{
+    width: 350px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 20%;
+    background-color: rgb(153, 187, 120);
+    border: 1px solid black;
+    font-size: 25px;
+    color: gray;
+}
+

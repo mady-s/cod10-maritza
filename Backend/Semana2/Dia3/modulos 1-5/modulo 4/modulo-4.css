@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.tablamod4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.formu{
+
+     height: 300px;
+    width: 70%;
+    margin-top: 30px;
+     
+     
+} 
+.grande{
+    
+    
+    border: 1px solid black;
+}
+.cate{
+    border: 1px solid black;
+    background-color: rgb(194, 231, 156);
+    width: ;
+    
+}
+.eti{
+    border: 1px solid black;
+    background-color: rgb(136, 165, 218);
+}
+.descr{
+    border: 1px solid black;
+    background-color: rgb(226, 158, 172);
+}
+.span2{
+    margin-left: 30px;
+    font-size: 35px;
+
+}
+.check{
+    height: 20px;
+    width: 20px;
+    border-bottom: 0px;
+    background-color: white;
+    margin: 10px;
+    
+}
+.texto{
+    margin: 10px;
+    margin-top: 14px;
+    margin-left: 40px;
+    color: rgb(223, 212, 212);
+    font-weight: bold;
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: red;
+    border: 1px solid black;
+    width: 90%;
+}
+.checttt{
+    font-size: 18px;
+    font-weight: bold;
+}
